@@ -2,8 +2,8 @@ import openai
 from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
-token ="6148804290:AAG8iFQX8qMu9WVISFndtQSJo0GSZuA0dX4"
-openai.api_key ='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'
+token =""
+openai.api_key =""
 bot = Bot(token)
 dp = Dispatcher(bot)
 @dp.message_handler()
